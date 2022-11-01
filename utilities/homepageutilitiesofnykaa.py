@@ -51,7 +51,7 @@ class homepagefunction():
         self.view_to_bag()
         time.sleep(9)
         self.proceed_to_buy()
-
+# gvjvjh
 
 
 
