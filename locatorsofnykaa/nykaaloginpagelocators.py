@@ -1,0 +1,7 @@
+account_btn='//div[text()="Account"]'
+login_signup_btn='button[data-at="login-btn"]'
+entr_mobile='//input[@name="mobileInput"]'
+submit_btn='//*[@id="portal-root"]//button[text()="Submit"]'
+assertion_login='div.bannerText.css-w6eilf'
+assert_invalid='p.helperText.css-503iyj'
+verify_otp='//button[text()="Verify OTP"]'
