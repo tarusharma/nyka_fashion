@@ -6,6 +6,7 @@ from configofnykka.configdataofnykka import *
 
 
 class Test_homepage:
+    @pytest.mark.smoke
     @pytest.mark.usefixtures("initiate_driver")
     def test_verify_order1(self, initiate_driver):
         loginpage().performlogin(mobile_no)
