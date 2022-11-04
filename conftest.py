@@ -2,7 +2,10 @@ import pytest
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from configofnykka.configdataofnykka import *
-driver = webdriver.Chrome(ChromeDriverManager().install())
+from selenium.webdriver.chrome.service import Service
+#driver = webdriver.Chrome(ChromeDriverManager().install())
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+driver.get("https://www.google.com")
 
 
 @pytest.fixture()
